@@ -1,0 +1,117 @@
+.other{
+   background-image: url("fashionlogo.jpg");
+}
+header{
+    text-shadow: 2px 2px 8px palegreen ; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: darkmagenta;
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+}
+h1{
+    transform: translate3d(10px, 10px, 80px) rotate(-2deg);
+    color: royalblue;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+h2{
+    color: black;
+    font-family: sans-serif;
+    font-size: medium;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large; 
+    font-weight: bolder;
+    color:darkorchid;
+}
+.centre{
+    text-align: justify;
+    background-color: lightyellow;
+    color: darkolivegreen;
+}
+#hme{
+    text-align: center;
+    background-color: linen;
+    color: mediumblue;
+}
+#logo{
+    float: left; position: relative;
+}
+
+section {
+    width: 800px;
+    border: 5px solid palegreen;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.im {
+    box-shadow: 0 4px 8px 0 rgba(0,0,30,20);
+    border-radius: 20px 20px 20px 20px;
+    align-items: center;
+    transition: 1s;
+    width: 40%;
+    margin: 10px;
+}
+.price{
+   box-shadow: 0 4px 8px 0 rgba(0,0,30,20);
+    border-radius: 20px 20px 20px 20px;
+    transition: 1s;
+    text-align: center;
+    width: 20%;
+    margin: 10px;
+  }
+.im:hover, .price:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,30,6,20);
+    background-color: lime;
+}
+
+.im >div, .price >div{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+#appar{
+    background-color: skyblue;
+}
+.menu{
+    padding-top: 50px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin-bottom: initial;
+    padding: 0;
+    overflow: hidden;
+    background-color:#443FA7;
+    position: inherit;
+    top: 100px;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:darkorange;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 14px;
+    text-decoration:none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:whitesmoke;
+  }
+  
+  .active {
+    background-color:paleturquoise;
+  }
+  
